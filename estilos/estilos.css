@@ -1,0 +1,85 @@
+:root {
+  /*PALETA DE COLORES*/
+  --blanco: #ffffff;
+  --oscuro: #212121;
+  --primario: #ffc107;
+  --secundario: #0097a7;
+  --gris: #757575;
+
+  /*OTROS ATRIBUTOS O VARIABLES DE CSS*/
+  --fuente-principal: 3.8rem;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 16px; /*1REM = 10PX*/
+  font-family: "Krub", sans-serif;
+}
+header{
+  background-color: rgba(rezd, green, blue, alpha);
+}
+.titulo {
+  text-align: center;
+
+  font-size: var(--fuente-principal);
+  color: var(--oscuro);
+}
+.titulo span {
+  font-size: 2rem;
+}
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.nav-bg {
+  background: var(--secundario);
+}
+.navegacion-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 480px) {
+  .navegacion-principal{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.navegacion-principal a {
+  display: block;
+  text-align: center;
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+.navegacion-principal a:hover {
+  background-color: var(--primario);
+  color: var(--oscuro);
+}
+.hero{
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 480px;
+  padding: 20px;
+  position: relative;
+}
+.contenido_hero{
+  position: absolute;
+  background-color: red;
+  width: 2rem;
+  height: 2rem;
+}
+
+
+
+
