@@ -5,6 +5,7 @@
   --primario: #ffc107;
   --secundario: #0097a7;
   --gris: #757575;
+  --grisClaro: #DFE9F3;
 
   /*OTROS ATRIBUTOS O VARIABLES DE CSS*/
   --fuente-principal: 3.8rem;
@@ -21,7 +22,8 @@ html {
 }
 body {
   font-size: 16px; /*1REM = 10PX*/
-  font-family: "Krub", sans-serif;
+  font-family: krub, sans-serif;
+  background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
 header {
   background-color: rgba(rezd, green, blue, alpha);
