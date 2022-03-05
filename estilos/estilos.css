@@ -28,6 +28,14 @@ body {
 header {
   background-color: rgba(rezd, green, blue, alpha);
 }
+/*Aqui sacamos de una pagina el sombreado y agregamos color de fondo
+ asi como tambien separamos un poco de hero*/
+.sombra{
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.54);
+  background-color: var(--blanco);
+  padding: 2rem;
+  border-radius: 2rem;
+}
 h1 {
   font-size: 3.8rem;
 }
@@ -81,6 +89,7 @@ h1,h2,h3{
   background-size: cover;
   height: 450px;
   position: relative;
+  margin-bottom: 2rem; /*Aqui separamos un poco el hero de mis servicios*/
 }
 .contenido_hero {
   position: absolute;
