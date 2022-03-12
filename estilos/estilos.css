@@ -110,7 +110,7 @@ h1,h2,h3{
  @media (min-width: 768px) {
    .servicios{
      display: grid;
-     grid-template-columns: repeat(3, 1fr);
+     grid-template-columns: repeat(3,1fr);
      column-gap: 5rem;
    }
  }
@@ -131,7 +131,7 @@ h1,h2,h3{
  .servicio .iconos{
    height: 15rem;
    width: 15rem;
-   background-color: var(--primario);
+   background-color: var(--secundario);
    border-radius: 50%;
    display: flex;
    justify-content: space-evenly;
