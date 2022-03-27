@@ -43,8 +43,9 @@
         </svg>
         Sarabia Guanajuato Mexico
       </p>
-
-      <a href="">Contactanos</a>
+    
+      <a href="" class="boton">Contactar</a>
+    
     </div>
   </section>
 
@@ -129,41 +130,46 @@
 
 
     </div> <!-- Servicios -->
-  </main>
+
 
   <section>
     <h2> Contacto</h2>
-    <form method="get">
+    <form method="get" class="formulario">
       <fieldset>
-        <legend>Contactame</legend>
-        <div>
+        <legend>Contactame llenando todos los campos</legend>
+
+       <div class="contenedo_campos">
+        <div class="campo">
           <label>Nombre</label>
           <input type="text" placeholder="Tu nombre" />
         </div>
 
-        <div>
+        <div class="campo">
           <label>Telefono</label>
           <input type="tel" placeholder="Tu numero" />
         </div>
 
-        <div>
+        <div class="campo">
           <label>Correo</label>
           <input type="email" placeholder="Tu correo">
         </div>
 
-        <div>
+        <div class="campo">
           <label>Mensaje</label>
           <textarea>Danos tu opinion</textarea>
         </div>
+        </div><!--Contenedor_campos-->
 
-        <div>
-          <input type="submit">
+        <div class="alinear_derecha flex">
+          <input class="ancho boton" type="submit" value="Enviar">
         </div>
+     
 
       </fieldset>
     </form>
 
   </section>
+</main>
 
   <footer>
     <p>Todos los derechos reservador Salvador Enriquez Duran 2022</p>
